@@ -1,0 +1,41 @@
+body,html {
+    height: 70%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.conteudo {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+div {
+   
+   background-color: rgb(206, 221, 221);
+    color:black;
+    position: relative;
+    width: 800px;
+  }
+  
+  
+  span {
+    position: absolute;
+    border-radius: 10px;
+    background-color: #1e75a8;
+    color: white;
+    padding: 3px 18px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    top: -13px;
+  }
+
+  svg {
+    width: 20px;
+    margin-right: 8px;
+  }
+  code {
+    background-color: rgb(175, 170, 170);
+  }
